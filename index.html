@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body  scroll="no" style="overflow: hidden">
+    
+    <div class="title-wrapper">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="projects.html">Projects</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="https://jmrivera01.github.io/Mid-Term/">Blog</a>
+                </div>          
+            </div> 
+
+            <div class="brand">
+                <style>
+                    .main-page-font{
+                        font-family: 'Caveat', cursive;
+                        font-size: 3rem;
+                    }
+                </style>
+                <div class ="main-page-font">Jensey's Kingdom</div>
+            </div>
+
+            <div class="right-side">
+                <div class="nav-link-wrapper">
+                    <a href="https://github.com/jmrivera01">Github</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="https://www.linkedin.com/in/jenseyriveratorres/"><span style="color: rgb(5, 172, 202) !important;">Linkedin  </span></a>
+                </div> 
+        </div>
+    </div>
+    
+    <div class="container-img">
+        <div class="video-container">
+            <video autoplay muted>
+                <source src="video/Seattle View.mp4" type="video/mp4" loop="loop">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+    </div>
+    <div class="elems-middle">
+        <div class="welcome-font">WELCOME</div> 
+
+        <input class="favorite styled"
+        onclick="myFunctionToProjects()"
+        type="button"
+        value="View Projects">
+    </div>
+    <script>
+        function myFunctionToProjects() {
+            window.location.href="projects.html";
+    }
+    </script>
+</body>
+</html>
